@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Patrick+Hand&family=Shrikhand&display=swap');
+
+/*/
+In this part Iam using google fonts, I uploaded 3 different fonts
+*/
+html
+{
+    
+    overflow-x: hidden;
+}
+
+.topheader{
+    position: sticky;
+    align-items: center;
+    display: flex;
+    padding: 0 2%;
+    justify-content: space-between;
+    background: #fdeaf2;
+    z-index: 1000;
+ 
+ }
+
+
+.topheader > a{
+    font-family: 'Freehand', sans-serif;
+    font-size: 250%;
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+.topheader ul
+{  
+    list-style: none;
+    font-family: 'Patrick Hand';
+    font-size: 1.5rem;
+   
+}
+
+.topheader li{
+    position: relative;
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+   padding: 0.3rem;
+   display: inline;
+   color: black;
+}
+
+li a:hover{
+    background: rgb(255, 0, 255);;
+    color: white;
+}
+
+
+.firstinfo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+main{
+    margin: 10em;
+}
+
+.image1 img{
+flex:1 1 41rem;
+width: 100%;
+ height:550px;
+ 
+}
+
+.firstinfo img{
+    flex:1 1 41rem;
+width: 100%;
+ height:550px;
+}
+
+.image1-text {
+    color: rgb(255, 0, 255);
+    font-family: 'Shrikhand', cursive;
+    flex-wrap: 1 1 41rem;
+}
+
+.image1-text > a{
+    background-color: rgb(187, 34, 174);
+    border-radius: .5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+
+.footer
+{
+    position: fixed;
+    background-color: #fdeaf2;
+    padding: 50px;
+    width: 100%;
+   bottom: 0;
+    
+}
